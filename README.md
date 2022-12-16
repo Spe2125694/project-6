@@ -65,7 +65,7 @@ The following are instructions on how to complete project 6 for a grade as well 
 - Change the URI to the URI of your new dictionary endpoint
 
 2. Add a method to the `AggregatorService` using the code below:
-```java
+```java class
     public List<Entry> getAllPalindromes() {
 
         final List<Entry> candidates = new ArrayList<>();
